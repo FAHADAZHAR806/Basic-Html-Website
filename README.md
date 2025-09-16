@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Basic-Html-Website
 
@@ -24,3 +25,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 > > > > > > > d80d6b8ebe3df292bfd032a698815f204c42410c
 > > > > > > > project-url https://github.com/FAHADAZHAR806/Basic-Html-Website
+=======
+https://github.com/FAHADAZHAR806/Basic-Html-Website
+>>>>>>> 9135db02ce80e125fb28a33f35eae0b7f4df51bf
