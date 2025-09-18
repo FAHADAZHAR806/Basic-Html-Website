@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Projectss() {
   return (
-    <div className=" flex  flex-1 flex-col items-center  py-10 px-10  border-2 ">
+    <div className=" flex  flex-1 flex-col items-center  py-10 px-10  border-1 ">
       <h1 className="text-2xl font-semibold">Projects</h1>
       <ul className="py-4 list-disc ">
         <li className="border-b-2 py-2">
