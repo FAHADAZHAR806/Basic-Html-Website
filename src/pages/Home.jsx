@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Linkedin, Github, Instagram, Twitter } from "lucide-react";
+
 export default function Home() {
   const paragraphs = [" a Software Engineer", " a Front End Web Developer"];
   const [displayText, setDisplayText] = useState("");
@@ -35,23 +37,18 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-6xl m-auto flex flex-col md:flex-row p-10 md:p-20 gap-10 justify-center items-center">
+      <div className="max-w-6xl m-auto flex flex-col md:flex-row p-10 md:p-10 gap-10 justify-center items-center">
         <div className=" flex flex-1 flex-col gap-6 text-[#FFFFFF] ">
-          <p className="text-3xl">Hi, I am Fahad Azhar</p>
+          <p className="text-6xl lin">Fahad Azhar</p>
           <p className="text-2xl">
             I'm <span className="pr-2 ">{displayText}</span>
           </p>
-          <p className="pr-4">
-            Always eager to learn new technologies and continuously enhance my
-            skills. Passionate about staying at the forefront of technology
-            trends, I strive to drive success in software development. With a
-            growth mindset, I embrace new challenges and am committed to
-            delivering innovative solutions.
-          </p>
-          <button className="rounded-2xl  bg-black w-40 h-10 ">
-            {" "}
-            <Link to="/Contact">Contact Me</Link>
-          </button>
+          <div className="flex justify-start gap-4">
+            <Linkedin />
+            <Github />
+            <Twitter />
+            <Instagram />
+          </div>
         </div>
 
         <div className="w-90     border-[#EA5D20] border-2 animate-pulse rounded-full  ">
