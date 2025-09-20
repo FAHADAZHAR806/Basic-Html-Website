@@ -18,10 +18,7 @@ export default function Contact() {
   };
   return (
     <>
-      <div
-        data-aos="fade-up"
-        className="grid md:grid-cols-1 max-w-5xl m-auto bg-[#161616] text-white justify-items-center lg:grid-cols-2   lg:px-4 "
-      >
+      <div className="grid md:grid-cols-1 max-w-5xl m-auto bg-[#161616] text-white justify-items-center items-center lg:grid-cols-2   lg:px-4 ">
         <div className=" px-16 py-6 sm:grid-cols-2 justify-items-center  md:py-6 lg:justify-items-start ">
           <h1 className="text-3xl font-bold"> GET IN TOUCH</h1>
           <hr className="text-[#F50D32] border px  w-22 my-2 " />
