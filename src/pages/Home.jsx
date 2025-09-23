@@ -4,8 +4,8 @@ import About from "./About";
 import Education from "./Education";
 import Skills from "./Skill";
 import Experience from "./Experience";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Projects from "../pages/Projects";
+import Contact from "../pages/Contact";
 export default function Home() {
   return (
     <>

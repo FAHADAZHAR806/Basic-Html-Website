@@ -1,7 +1,12 @@
 export default function Projects() {
   return (
     <>
-      <div className=" flex  flex-col md:flex-row justify-center  w-full max-w-6xl m-auto py-10"></div>
+      <section
+        id="contact"
+        className="w-full max-w-6xl mx-auto flex flex-col items-center py-20 px-6 md:px-12 lg:px-20"
+      >
+        <h1 className="text-center text-4xl font-bold mb-10">Projects</h1>
+      </section>
     </>
   );
 }
