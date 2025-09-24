@@ -105,7 +105,7 @@ export default function Header() {
 
       {/* Active Link Styling */}
       <style jsx>{`
-        .active-link div {
+        .active-link section {
           background-color: #bfdbfe; /* Tailwind blue-200 */
           color: #1d4ed8; /* Tailwind blue-700 */
           font-weight: bold;
