@@ -4,6 +4,16 @@ html {
   background-color: #161616;
   color: #ffffff;
 }
-html,
-body {
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Playfair Display", serif;
+  }
 }

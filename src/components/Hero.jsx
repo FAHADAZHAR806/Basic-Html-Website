@@ -54,33 +54,33 @@ export default function Hero() {
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-2 rounded-full hover:scale-110 transition"
+                className="bg-[#0A66C2] p-2 rounded-full hover:scale-110 transition"
               >
-                <Linkedin className="text-[#0A66C2]" />
+                <Linkedin />
               </a>
               <a
                 href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-2 rounded-full hover:scale-110 transition"
+                className="bg-[#333] p-2 rounded-full hover:scale-110 transition"
               >
-                <Github className="text-[#333]" />
+                <Github />
               </a>
               <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-2 rounded-full hover:scale-110 transition"
+                className="bg-[#1DA1F2] p-2 rounded-full hover:scale-110 transition"
               >
-                <Twitter className="text-[#1DA1F2]" />
+                <Twitter />
               </a>
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white p-2 rounded-full hover:scale-110 transition"
+                className="bg-[#E4405F] p-2 rounded-full hover:scale-110 transition"
               >
-                <Instagram className="text-[#E4405F]" />
+                <Instagram />
               </a>
             </div>
           </div>
