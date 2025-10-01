@@ -78,7 +78,7 @@ export default function Projects() {
           {/* Description */}
           <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2">
             <h3 className="font-semibold text-base md:text-lg">
-              Cfedine is a lightweight, hands-on web template created to help
+              Cafedine is a lightweight, hands-on web template created to help
               beginners and intermediate developers practice real-world
               front-end skills. Built with plain HTML, CSS, and JavaScript,
             </h3>
